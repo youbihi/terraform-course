@@ -19,6 +19,7 @@ variable "AMIS" {
   }
 }
 
+#to provide this var :  terraform apply -vars RDS_PASSWORD=mypass
 variable "RDS_PASSWORD" {
 }
 
